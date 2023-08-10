@@ -3,10 +3,13 @@ import Container from "./container";
 import heroImg from "../../assets/images/Vector.svg";
 
 const Hero = () => {
+  const backgroundStyle = {
+    backgroundImage: `url(${heroImg})`,
+  };
   return (
     <>
-      <Container className="flex flex-wrap ">
-        <div className="flex items-center w-full lg:w-1/2">
+      <Container className="flex flex-wrap">
+        <div className="flex items-center w-full lg:w-1/2 py-12">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-[#6B7280] lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight ">
               <span className=" text-[#2597A2]">ECOZEM</span> <br /> Services de
@@ -38,19 +41,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
-            <img
-              src={heroImg}
-              width="616"
-              height="617"
-              className={"object-cover"}
-              alt="Hero Illustration"
-              loading="eager"
-              placeholder="blur"
-            />
-          </div>
-        </div>
+        {/* <div className="flex items-center justify-center lg:w-1/2 w-full h-full absolute transform translate-x-full -translate-y-1/2 -left-0 " style={backgroundStyle}>
+        </div> */}
       </Container>
     </>
   );
