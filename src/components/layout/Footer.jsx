@@ -1,4 +1,6 @@
 import logo from "../../assets/images/logo.png";
+import { BiSolidPhone } from "react-icons/bi";
+import { SiGooglemaps } from "react-icons/si";
 
 function Footer() {
   const Twitter = ({ size = 24 }) => (
@@ -51,9 +53,9 @@ function Footer() {
   const Backlink = () => {
     return (
       <a
-        href="https://web3templates.com"
+        href="#"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
         className="absolute flex px-3 py-1 space-x-2 text-sm font-semibold text-gray-900 bg-white border border-gray-300 rounded shadow-sm place-items-center left-5 bottom-5 dark:bg-trueGray-900 dark:border-trueGray-700 dark:text-trueGray-300"
       >
         <svg
@@ -89,40 +91,41 @@ function Footer() {
             <li>
               <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
                 <a
-                  href="https://twitter.com/web3templates"
+                  href="#"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                 >
                   <span className="sr-only">Twitter</span>
                   <Twitter />
                 </a>
                 <a
-                  href="https://facebook.com/web3templates"
+                  href="#"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                 >
                   <span className="sr-only">Facebook</span>
                   <Facebook />
                 </a>
                 <a
-                  href="https://instagram.com/web3templates"
+                  href="#"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                 >
                   <span className="sr-only">Instagram</span>
                   <Instagram />
                 </a>
-                <a href="https://linkedin.com/" target="_blank" rel="noopener">
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
                   <span className="sr-only">Linkedin</span>
                   <Linkedin />
                 </a>
               </div> 
             </li>
             <li>
-              <a href="#">+229 12345678</a>
+              
+              <a href="#"> <span><BiSolidPhone /></span>+229 12345678</a>
             </li>
             <li>
-              <a href="#">Sed ut perspiciatis unde omnis</a>
+              <a href="#"><span><SiGooglemaps /></span>Sed ut perspiciatis unde omnis</a>
             </li>
             <li>
               <a href="#"></a>
@@ -141,7 +144,7 @@ function Footer() {
             </li>
           </ul>
           <ul>
-            <h6>Ecozem</h6>
+            <h6 className=" text-[#F6DF0B]">Ecozem</h6>
             <li>
               <a href=""></a>
             </li>
@@ -159,7 +162,7 @@ function Footer() {
             </li>
           </ul>
           <ul>
-            <h6>Contacts</h6>
+            <h6 className=" text-[#F6DF0B]">Contacts</h6>
             <li>
               <a href="#"></a>
             </li>

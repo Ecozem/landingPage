@@ -5,6 +5,7 @@ import About from "./about";
 import CallToAction from "./callToAction";
 import Service from "./service";
 import Testiomonial from "./testimonials";
+import CallBack from "./callback";
 function Home() {
   return (
     <>
@@ -14,6 +15,7 @@ function Home() {
       <CallToAction />
       <Service /> 
       <Testiomonial /> 
+      <CallBack />
       <Footer />
     </>
   );

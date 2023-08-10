@@ -196,7 +196,7 @@ a{
   margin-top: 50px;
   font-size: 22px;
   line-height: 32px;
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
 }
 .footer_menu ul li a{
   font-size: 20px;
@@ -230,3 +230,4 @@ a{
 .p10{
   padding: 0px 10px;
 }
+
