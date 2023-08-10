@@ -48,12 +48,12 @@ const people = [
 
 export default function CallBack() {
   return (
-    <><div className="mx-auto lg:mx-0">
+    <><div className="mx-auto lg:mx-0 overflow-hidden bg-[#F6F6F6] pt-5">
           <h2 className="text-center text-3xl font-bold tracking-tight text-[#2597A2] sm:text-4xl">
               ILS PARLENT DE NOUS
           </h2>
           
-      </div><ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 pb-8 px-28 overflow-hidden bg-[#F6F6F6] py-24 sm:py-32">
+      </div><ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 pb-8 px-28 overflow-hidden bg-[#F6F6F6] py-4 sm:py-32">
               {people.map((person) => (
                   <li key={person.email} className="col-span-1 divide-y divide-gray-200 rounded-lg shadow bg-[#D9D9D9]">
                       <div className="flex w-full items-center justify-between space-x-6 p-6">

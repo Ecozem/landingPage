@@ -1,7 +1,7 @@
 import React from "react";
 import circle from "../../assets/images/circle.png";
 
-export default function About() {
+const About = () => {
   return (
     <div className="overflow-hidden bg-white py-24 sm:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -27,13 +27,16 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="flex justify-center items-center"> 
+          <div className="flex justify-end items-center relative">
             <img
               src={circle}
-              alt="imag"
-              className="w-[48rem] max-w-none rounded-xl ring-gray-400/10 sm:w-[24rem] md:-ml-4 lg:-ml-0"
-              width={2432}
-              height={1442}
+              alt="Blue Circle"
+              className="w-auto h-auto rounded-full absolute right-48 transform translate-x-1/2 "
+            />
+            <img
+              src={circle}
+              alt="Red Circle"
+              className="w-96 h-96 rounded-full absolute right-0 top-24 transform translate-x-1/2 -translate-y-1/2"
             />
           </div>
         </div>
@@ -41,3 +44,5 @@ export default function About() {
     </div>
   );
 }
+
+export default About;
