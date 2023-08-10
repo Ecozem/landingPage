@@ -1,0 +1,18 @@
+
+path: "/", -> Home
+path: "/welcome", -> Signup choice 
+path: "/login", -> Login 
+path: "/register", -> Register
+path: "/galery", -> Gallery
+path: "/rooms", -> Gallery (rooms)
+path: "/artists", -> Gallery (artists)
+path: "/marketplace", -> Marketplace
+path: "/details/market", -> Marketplace image détails
+path : "/details/auction", -> Marketplace auction détails
+path: "/profil/artist/guest", -> Profil artist point de vue visiteur
+path: "/profil/artist", -> Profil artist
+path: "/profil/collector", -> Profil collector
+path: "/profil/galery", -> Profil gallery 
+path: "/settings/collector", -> Settings collector
+path: "/settings/galery", -> Settings gallery
+path: "/cart", -> Cart
